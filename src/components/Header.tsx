@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -10,17 +11,20 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="flex items-center">
+          <Link to="/" className="flex items-center">
             <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-primary bg-clip-text text-transparent">
               CoolAir HVAC
             </h1>
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#services" className="text-foreground hover:text-primary transition-colors">
+            <Link to="/" className="text-foreground hover:text-primary transition-colors">
+              Home
+            </Link>
+            <Link to="/services" className="text-foreground hover:text-primary transition-colors">
               Services
-            </a>
+            </Link>
             <a href="#team" className="text-foreground hover:text-primary transition-colors">
               Our Team
             </a>
@@ -50,13 +54,20 @@ const Header = () => {
         {mobileMenuOpen && (
           <nav className="md:hidden pb-4 animate-fade-in">
             <div className="flex flex-col space-y-4">
-              <a
-                href="#services"
+              <Link
+                to="/"
+                className="text-foreground hover:text-primary transition-colors py-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Home
+              </Link>
+              <Link
+                to="/services"
                 className="text-foreground hover:text-primary transition-colors py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Services
-              </a>
+              </Link>
               <a
                 href="#team"
                 className="text-foreground hover:text-primary transition-colors py-2"
