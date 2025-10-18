@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-primary to-primary bg-clip-text text-transparent">
-              CoolAir HVAC
+              AirMatrix
             </h3>
             <p className="text-muted-foreground mb-4">
               Your trusted local HVAC experts since 2005. Professional service, guaranteed satisfaction.
@@ -21,7 +21,7 @@ const Footer = () => {
             <div className="space-y-3 text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-primary" />
-                <span>(555) 123-4567</span>
+                <span>(+91) 9032598491</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-primary" />
@@ -63,7 +63,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border mt-12 pt-8 text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} CoolAir HVAC. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} AirMatrix. All rights reserved.</p>
         </div>
       </div>
     </footer>

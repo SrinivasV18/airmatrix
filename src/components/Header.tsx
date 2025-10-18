@@ -13,7 +13,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-primary bg-clip-text text-transparent">
-              CoolAir HVAC
+              AirMatrix
             </h1>
           </Link>
 
@@ -36,7 +36,7 @@ const Header = () => {
             </a>
             <div className="flex items-center gap-2 text-primary">
               <Phone className="h-4 w-4" />
-              <span className="font-semibold">(555) 123-4567</span>
+              <span className="font-semibold">(+91) 9032598491</span>
             </div>
           </nav>
 
@@ -91,7 +91,7 @@ const Header = () => {
               </a>
               <div className="flex items-center gap-2 text-primary py-2">
                 <Phone className="h-4 w-4" />
-                <span className="font-semibold">(555) 123-4567</span>
+                <span className="font-semibold">(+91) 9032598491</span>
               </div>
             </div>
           </nav>

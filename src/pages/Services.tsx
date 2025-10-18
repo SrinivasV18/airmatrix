@@ -114,7 +114,7 @@ const Services = () => {
                   Request Free Estimate
                 </Button>
                 <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary/10">
-                  Call (555) 123-4567
+                  Call (+91) 9032598491
                 </Button>
               </div>
             </CardContent>
