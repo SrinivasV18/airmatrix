@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-primary to-primary bg-clip-text text-transparent">
-              AirMatrix
+              AirMatrix1
             </h3>
             <p className="text-muted-foreground mb-4">
               Your trusted local HVAC experts since 2005. Professional service, guaranteed satisfaction.
