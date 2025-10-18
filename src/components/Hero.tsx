@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Professional AC installation by CoolAir HVAC expert technician"
+          alt="Professional AC installation by AirMatrix expert technician"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/40" />
@@ -34,7 +34,7 @@ const Hero = () => {
             </Button>
             <Button variant="outline" size="lg" className="text-lg h-14 px-8 border-primary text-primary hover:bg-primary hover:text-primary-foreground">
               <Phone className="mr-2 h-5 w-5" />
-              Call Now: (555) 123-4567
+              Call Now: (+91) 9032598491
             </Button>
           </div>
 
